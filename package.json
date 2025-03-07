@@ -2,7 +2,7 @@
   "name": "renewable-risk-dashboard-client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ayershov777/project-risk-dash",
+  "homepage": "https://ayershov777.github.io/project-risk-dash",
   "dependencies": {
     "@react-leaflet/core": "^2.1.0",
     "@react-pdf/renderer": "^4.3.0",
