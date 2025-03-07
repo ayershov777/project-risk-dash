@@ -136,7 +136,7 @@ src/
 3. Configure environment variables:
    Create a `.env` file in the client directory with:
    ```
-   REACT_APP_API_URL=http://localhost:5000/api
+   REACT_APP_API_URL=https://project-risk-dashboard-api-9685249a8964.herokuapp.com/api
    ```
 
 4. Start the development server:

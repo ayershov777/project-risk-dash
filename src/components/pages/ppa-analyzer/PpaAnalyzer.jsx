@@ -37,7 +37,7 @@ const PpaAnalyzer = () => {
         discountRate: 5.0
     });
 
-    const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+    const API_URL = process.env.REACT_APP_API_URL || 'https://project-risk-dashboard-api-9685249a8964.herokuapp.com/api';
 
     // Fetch projects on component mount
     useEffect(() => {
