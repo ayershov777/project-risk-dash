@@ -7,13 +7,24 @@ import SentimentIndicator from '../common/SentimentIndicator';
 const NewsCard = ({ news }) => {
     const formatDate = (dateString) => {
         if (!dateString) return 'N/A';
-
-        const date = new Date(dateString);
-        return new Intl.DateTimeFormat('en-US', {
-            year: 'numeric',
-            month: 'short',
-            day: 'numeric'
-        }).format(date);
+        
+        try {
+            const date = new Date(dateString);
+            
+            // Check if date is valid (Invalid dates in JS return NaN when calling getTime())
+            if (isNaN(date.getTime())) {
+                return 'Invalid Date';
+            }
+            
+            return new Intl.DateTimeFormat('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric'
+            }).format(date);
+        } catch (error) {
+            console.error("Date formatting error:", error, "for date:", dateString);
+            return 'Invalid Date';
+        }
     };
 
     return (
