@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/project-risk-dash/static/css/main.1c2fb11f.css",
-    "main.js": "/project-risk-dash/static/js/main.f4eac45b.js",
+    "main.js": "/project-risk-dash/static/js/main.68a2b16a.js",
     "index.html": "/project-risk-dash/index.html",
     "main.1c2fb11f.css.map": "/project-risk-dash/static/css/main.1c2fb11f.css.map",
-    "main.f4eac45b.js.map": "/project-risk-dash/static/js/main.f4eac45b.js.map"
+    "main.68a2b16a.js.map": "/project-risk-dash/static/js/main.68a2b16a.js.map"
   },
   "entrypoints": [
     "static/css/main.1c2fb11f.css",
-    "static/js/main.f4eac45b.js"
+    "static/js/main.68a2b16a.js"
   ]
 }
